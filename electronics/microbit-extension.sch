@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:lib_microbit_connector
 LIBS:switches
+LIBS:TLC5917ID
 LIBS:microbit-extension-cache
 EELAYER 25 0
 EELAYER END
@@ -464,4 +465,22 @@ Wire Wire Line
 Connection ~ 1800 1900
 Text Notes 7600 900  0    60   ~ 0
 Adding a buffer may be useful\nPower comsumption -> 0.5-5mA/pin max\nLED draw -> 20mA/pin\nMax draw -> 90mA/pin\n
+$Comp
+L TLC5917ID U?
+U 1 1 5985BE76
+P 6850 1600
+F 0 "U?" H 6639 2260 50  0000 L BNN
+F 1 "TLC5917ID" H 6667 557 50  0000 L BNN
+F 2 "SOIC127P600X175-16N" H 6850 1600 50  0001 L BNN
+F 3 "1.11 USD" H 6850 1600 50  0001 L BNN
+F 4 "TLC5917IN" H 6850 1600 50  0001 L BNN "MP"
+F 5 "8-Bit Constant-Current LED Sink Driver 16-PDIP -40 to 125" H 6850 1600 50  0001 L BNN "Description"
+F 6 "Good" H 6850 1600 50  0001 L BNN "Availability"
+F 7 "PDIP-16 Texas Instruments" H 6850 1600 50  0001 L BNN "Package"
+F 8 "Texas Instruments" H 6850 1600 50  0001 L BNN "MF"
+	1    6850 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 700  7050 0    60   ~ 0
+TODO\n- Power Regulation\n	5V, 3.3V (switching or linear?)\n- Potentiometer\n- Buzzer
 $EndSCHEMATC

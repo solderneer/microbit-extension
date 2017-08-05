@@ -1,0 +1,156 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+DIP762W46P254L1930H508Q16
+$EndINDEX
+$MODULE DIP762W46P254L1930H508Q16
+Po 0 0 0 15 00000000 00000000 ~~
+Li DIP762W46P254L1930H508Q16
+Cd 
+Sc 00000000
+At STD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -2.64498 -10.8254 1.00189 1.00189 0 0.05 N V 21 "DIP762W46P254L1930H508Q16"
+T1 -1.91704 10.7364 1.00107 1.00107 0 0.05 N V 21 "VAL**"
+DS -5.13 10.13 5.13 10.13 0.05 24
+DS 5.13 10.13 5.13 -10.13 0.05 24
+DS 5.13 -10.13 -5.13 -10.13 0.05 24
+DS -5.13 -10.13 -5.13 10.13 0.05 24
+DS -3.2 9.65 -3.2 -9.65 0.127 24
+DS -3.2 -9.65 3.2 -9.65 0.127 21
+DS 3.2 -9.65 3.2 9.65 0.127 24
+DS 3.2 9.65 -3.2 9.65 0.127 21
+DC -2.2 -8.8 -1.7 -8.8 0.127 24
+DC -4.9 -9.8 -4.8 -9.8 0.2 21
+$PAD
+Sh "1" R 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -3.81 -8.89
+$EndPAD
+$PAD
+Sh "2" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -3.81 -6.35
+$EndPAD
+$PAD
+Sh "5" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -3.81 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -3.81 -1.27
+$EndPAD
+$PAD
+Sh "6" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -3.81 3.81
+$EndPAD
+$PAD
+Sh "7" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -3.81 6.35
+$EndPAD
+$PAD
+Sh "3" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -3.81 -3.81
+$EndPAD
+$PAD
+Sh "15" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 3.81 -6.35
+$EndPAD
+$PAD
+Sh "10" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 3.81 6.35
+$EndPAD
+$PAD
+Sh "11" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 3.81 3.81
+$EndPAD
+$PAD
+Sh "14" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 3.81 -3.81
+$EndPAD
+$PAD
+Sh "12" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 3.81 1.27
+$EndPAD
+$PAD
+Sh "13" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 3.81 -1.27
+$EndPAD
+$PAD
+Sh "16" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 3.81 -8.89
+$EndPAD
+$PAD
+Sh "8" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -3.81 8.89
+$EndPAD
+$PAD
+Sh "9" C 1.308 1.308 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 3.81 8.89
+$EndPAD
+$EndMODULE DIP762W46P254L1930H508Q16
