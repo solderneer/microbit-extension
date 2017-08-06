@@ -1,4 +1,4 @@
-update=2017 August 05, Saturday 20:45:39
+update=2017 August 06, Sunday 23:33:39
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,14 @@ LibName29=valves
 LibName30=lib_microbit_connector
 LibName31=switches
 LibName32=TLC5917ID
+LibName33=2N4401
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=microbit-extensive
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
