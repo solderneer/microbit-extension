@@ -68,3 +68,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=2N4401
+LibName31=lib_microbit_connector
+LibName32=switches
+LibName33=TLC5917
