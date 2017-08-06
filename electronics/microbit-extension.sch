@@ -255,7 +255,7 @@ F 3 "" H 8350 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7900 1150 0    60   ~ 0
-LED1
+LED0
 $Comp
 L LED D?
 U 1 1 59859B13
@@ -279,7 +279,7 @@ F 3 "" H 8350 1750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7900 1750 0    60   ~ 0
-LED3
+LED2
 $Comp
 L LED D?
 U 1 1 59859BF9
@@ -303,7 +303,7 @@ F 3 "" H 8350 1450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7900 1450 0    60   ~ 0
-LED2
+LED1
 $Comp
 L LED D?
 U 1 1 59859C45
@@ -327,7 +327,7 @@ F 3 "" H 8350 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7900 2050 0    60   ~ 0
-LED4
+LED3
 $Comp
 L LED D?
 U 1 1 59859C97
@@ -353,16 +353,16 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 59859CA3
-P 9050 2500
-F 0 "#PWR?" H 9050 2250 50  0001 C CNN
-F 1 "GND" H 9050 2350 50  0000 C CNN
-F 2 "" H 9050 2500 50  0001 C CNN
-F 3 "" H 9050 2500 50  0001 C CNN
-	1    9050 2500
+P 9050 3250
+F 0 "#PWR?" H 9050 3000 50  0001 C CNN
+F 1 "GND" H 9050 3100 50  0000 C CNN
+F 2 "" H 9050 3250 50  0001 C CNN
+F 3 "" H 9050 3250 50  0001 C CNN
+	1    9050 3250
 	1    0    0    -1  
 $EndComp
 Text Label 7900 2350 0    60   ~ 0
-LED5
+LED4
 $Comp
 L +3.3V #PWR?
 U 1 1 5985A38B
@@ -451,7 +451,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 2350 8200 2350
 Wire Wire Line
-	9050 1150 9050 2500
+	9050 1150 9050 3250
 Connection ~ 9050 1450
 Connection ~ 9050 1750
 Connection ~ 9050 2050
@@ -468,19 +468,122 @@ Adding a buffer may be useful\nPower comsumption -> 0.5-5mA/pin max\nLED draw ->
 $Comp
 L TLC5917ID U?
 U 1 1 5985BE76
-P 6850 1600
-F 0 "U?" H 6639 2260 50  0000 L BNN
-F 1 "TLC5917ID" H 6667 557 50  0000 L BNN
-F 2 "SOIC127P600X175-16N" H 6850 1600 50  0001 L BNN
-F 3 "1.11 USD" H 6850 1600 50  0001 L BNN
-F 4 "TLC5917IN" H 6850 1600 50  0001 L BNN "MP"
-F 5 "8-Bit Constant-Current LED Sink Driver 16-PDIP -40 to 125" H 6850 1600 50  0001 L BNN "Description"
-F 6 "Good" H 6850 1600 50  0001 L BNN "Availability"
-F 7 "PDIP-16 Texas Instruments" H 6850 1600 50  0001 L BNN "Package"
-F 8 "Texas Instruments" H 6850 1600 50  0001 L BNN "MF"
-	1    6850 1600
+P 6350 1550
+F 0 "U?" H 6139 2210 50  0000 L BNN
+F 1 "TLC5917ID" H 6167 507 50  0000 L BNN
+F 2 "SOIC127P600X175-16N" H 6350 1550 50  0001 L BNN
+F 3 "1.11 USD" H 6350 1550 50  0001 L BNN
+F 4 "TLC5917IN" H 6350 1550 50  0001 L BNN "MP"
+F 5 "8-Bit Constant-Current LED Sink Driver 16-PDIP -40 to 125" H 6350 1550 50  0001 L BNN "Description"
+F 6 "Good" H 6350 1550 50  0001 L BNN "Availability"
+F 7 "PDIP-16 Texas Instruments" H 6350 1550 50  0001 L BNN "Package"
+F 8 "Texas Instruments" H 6350 1550 50  0001 L BNN "MF"
+	1    6350 1550
 	1    0    0    -1  
 $EndComp
 Text Notes 700  7050 0    60   ~ 0
 TODO\n- Power Regulation\n	5V, 3.3V (switching or linear?)\n- Potentiometer\n- Buzzer
+Text Label 7450 1250 2    60   ~ 0
+LED0
+Text Label 7450 1350 2    60   ~ 0
+LED1
+Text Label 7450 1450 2    60   ~ 0
+LED2
+Text Label 7450 1550 2    60   ~ 0
+LED3
+Text Label 7450 1650 2    60   ~ 0
+LED4
+Wire Wire Line
+	7150 1250 7450 1250
+Wire Wire Line
+	7150 1350 7450 1350
+Wire Wire Line
+	7150 1450 7450 1450
+Wire Wire Line
+	7150 1550 7450 1550
+Wire Wire Line
+	7150 1650 7450 1650
+$Comp
+L LED_RGB D?
+U 1 1 598674A3
+P 8800 2950
+F 0 "D?" H 8800 3320 50  0000 C CNN
+F 1 "LED_RGB" H 8800 2600 50  0000 C CNN
+F 2 "" H 8800 2900 50  0001 C CNN
+F 3 "" H 8800 2900 50  0001 C CNN
+	1    8800 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 2750 9050 2750
+Connection ~ 9050 2750
+Wire Wire Line
+	9000 2950 9050 2950
+Connection ~ 9050 2950
+Wire Wire Line
+	9000 3150 9050 3150
+Connection ~ 9050 3150
+$Comp
+L R R?
+U 1 1 598678F8
+P 8350 2750
+F 0 "R?" V 8250 2750 50  0000 C CNN
+F 1 "R" V 8350 2750 50  0000 C CNN
+F 2 "" V 8280 2750 50  0001 C CNN
+F 3 "" H 8350 2750 50  0001 C CNN
+	1    8350 2750
+	0    1    1    0   
+$EndComp
+Text Label 7900 2750 0    60   ~ 0
+RGBB
+$Comp
+L R R?
+U 1 1 598678FF
+P 8350 2950
+F 0 "R?" V 8250 2950 50  0000 C CNN
+F 1 "R" V 8350 2950 50  0000 C CNN
+F 2 "" V 8280 2950 50  0001 C CNN
+F 3 "" H 8350 2950 50  0001 C CNN
+	1    8350 2950
+	0    1    1    0   
+$EndComp
+Text Label 7900 2950 0    60   ~ 0
+RGBG
+$Comp
+L R R?
+U 1 1 59867906
+P 8350 3150
+F 0 "R?" V 8250 3150 50  0000 C CNN
+F 1 "R" V 8350 3150 50  0000 C CNN
+F 2 "" V 8280 3150 50  0001 C CNN
+F 3 "" H 8350 3150 50  0001 C CNN
+	1    8350 3150
+	0    1    1    0   
+$EndComp
+Text Label 7900 3150 0    60   ~ 0
+RGBR
+Wire Wire Line
+	7900 2750 8200 2750
+Wire Wire Line
+	7900 2950 8200 2950
+Wire Wire Line
+	7900 3150 8200 3150
+Wire Wire Line
+	8500 2750 8600 2750
+Wire Wire Line
+	8500 2950 8600 2950
+Wire Wire Line
+	8500 3150 8600 3150
+Wire Wire Line
+	7150 1750 7450 1750
+Wire Wire Line
+	7150 1850 7450 1850
+Wire Wire Line
+	7150 1950 7450 1950
+Text Label 7450 1750 2    60   ~ 0
+RGBB
+Text Label 7450 1850 2    60   ~ 0
+RGBG
+Text Label 7450 1950 2    60   ~ 0
+RGBR
 $EndSCHEMATC
