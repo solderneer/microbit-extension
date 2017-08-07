@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name led)(type KiCad)(uri /Users/solderneer/Documents/Projects/kicad-lib/footprints/led.pretty)(options "")(descr ""))
+)
