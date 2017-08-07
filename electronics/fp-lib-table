@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name led)(type KiCad)(uri /Users/solderneer/Documents/Projects/kicad-lib/footprints/led.pretty)(options "")(descr ""))
+  (lib (name Connectors_4UCON)(type KiCad)(uri /Users/solderneer/Documents/Projects/microbit-extension/footprints/Connectors_4UCON.pretty)(options "")(descr ""))
 )
