@@ -753,22 +753,12 @@ Wire Wire Line
 	1800 1450 2050 1450
 Wire Wire Line
 	1800 1550 2050 1550
-Text Label 2050 1450 2    60   ~ 0
-SDA
-Text Label 2050 1550 2    60   ~ 0
-SCL
 Wire Wire Line
 	1800 2350 2100 2350
 Wire Wire Line
 	1800 2450 2100 2450
 Wire Wire Line
 	1800 2550 2100 2550
-Text Label 2100 2350 2    60   ~ 0
-MOSI
-Text Label 2100 2450 2    60   ~ 0
-MISO
-Text Label 2100 2550 2    60   ~ 0
-SCK
 Connection ~ 1800 2050
 Wire Wire Line
 	1800 2250 2100 2250
@@ -798,4 +788,28 @@ Wire Wire Line
 	1800 3450 2100 3450
 Text Label 2100 3450 2    60   ~ 0
 LED4
+Text Label 2100 3950 2    60   ~ 0
+RGBB
+Wire Wire Line
+	1800 3950 2100 3950
+Wire Wire Line
+	1800 4050 2100 4050
+Text Label 2100 4050 2    60   ~ 0
+RGBG
+Wire Wire Line
+	1800 4250 2100 4250
+Text Label 2100 4250 2    60   ~ 0
+RGBR
+Wire Wire Line
+	1800 4750 2350 4750
+Text Label 2050 1450 2    60   ~ 0
+SW1
+Text Label 2050 1550 2    60   ~ 0
+SW2
+Text Label 2100 2350 2    60   ~ 0
+SW3
+Text Label 2100 2450 2    60   ~ 0
+SW4
+Text Label 2350 4750 2    60   ~ 0
+BUZZER_PIN
 $EndSCHEMATC
