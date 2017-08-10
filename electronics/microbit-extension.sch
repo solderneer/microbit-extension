@@ -452,7 +452,7 @@ F 3 "" H 10600 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 850  1800 1250
+	1800 850  1800 1350
 Connection ~ 1800 1150
 Connection ~ 1800 1050
 Connection ~ 1800 950 
@@ -534,7 +534,7 @@ Connection ~ 9050 1750
 Connection ~ 9050 2050
 Connection ~ 9050 2350
 Wire Wire Line
-	1800 1750 1800 2050
+	1800 1650 1800 2150
 Connection ~ 1800 1850
 Connection ~ 1800 1950
 Wire Wire Line
@@ -568,7 +568,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 4150 9950 4150
 Text Label 9950 4150 0    60   ~ 0
-AI1
+AI0
 $Comp
 L Buzzer BZ1
 U 1 1 598737DA
@@ -720,4 +720,82 @@ Wire Wire Line
 	10600 5350 10600 5450
 Wire Wire Line
 	10600 5000 10600 5150
+Wire Wire Line
+	1800 2650 1800 2950
+Connection ~ 1800 2750
+Connection ~ 1800 2850
+Wire Wire Line
+	1800 3550 1800 3850
+Connection ~ 1800 3750
+Connection ~ 1800 3650
+Wire Wire Line
+	1800 3700 2100 3700
+Connection ~ 1800 3700
+Text Label 2100 3700 2    60   ~ 0
+AI1
+Wire Wire Line
+	1800 4350 1800 4650
+Connection ~ 1800 4450
+Connection ~ 1800 4550
+Text Label 2100 4500 2    60   ~ 0
+AI0
+Wire Wire Line
+	1800 4500 2100 4500
+Connection ~ 1800 4500
+Wire Wire Line
+	1800 2800 2100 2800
+Connection ~ 1800 2800
+Text Label 2100 2800 2    60   ~ 0
+AI2
+Connection ~ 1800 1750
+Connection ~ 1800 1250
+Wire Wire Line
+	1800 1450 2050 1450
+Wire Wire Line
+	1800 1550 2050 1550
+Text Label 2050 1450 2    60   ~ 0
+SDA
+Text Label 2050 1550 2    60   ~ 0
+SCL
+Wire Wire Line
+	1800 2350 2100 2350
+Wire Wire Line
+	1800 2450 2100 2450
+Wire Wire Line
+	1800 2550 2100 2550
+Text Label 2100 2350 2    60   ~ 0
+MOSI
+Text Label 2100 2450 2    60   ~ 0
+MISO
+Text Label 2100 2550 2    60   ~ 0
+SCK
+Connection ~ 1800 2050
+Wire Wire Line
+	1800 2250 2100 2250
+Text Label 2100 2250 2    60   ~ 0
+LED0
+Wire Wire Line
+	1800 3150 2100 3150
+Text Label 2100 3150 2    60   ~ 0
+BUT_B
+Wire Wire Line
+	1800 4150 2100 4150
+Text Label 2100 4150 2    60   ~ 0
+BUT_A
+Wire Wire Line
+	1800 3050 2100 3050
+Text Label 2100 3050 2    60   ~ 0
+LED1
+Wire Wire Line
+	1800 3250 2100 3250
+Text Label 2100 3250 2    60   ~ 0
+LED2
+Text Label 2100 3350 2    60   ~ 0
+LED3
+Wire Wire Line
+	1800 3350 2100 3350
+Wire Wire Line
+	1800 3450 2100 3450
+Text Label 2100 3450 2    60   ~ 0
+LED4
 $EndSCHEMATC
