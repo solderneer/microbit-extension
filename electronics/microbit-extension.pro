@@ -1,4 +1,4 @@
-update=2017 August 12, Saturday 19:15:23
+update=2017 August 13, Sunday 11:07:53
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,4 @@ LibName31=2N4401
 LibName32=lib_microbit_connector
 LibName33=switches
 LibName34=TLC5917ID
+LibName35=components
