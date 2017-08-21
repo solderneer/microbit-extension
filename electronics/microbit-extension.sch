@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:microbit-extension-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,7 +32,7 @@ LIBS:2N4401
 LIBS:lib_microbit_connector
 LIBS:switches
 LIBS:TLC5917ID
-LIBS:microbit-extension-cache
+LIBS:components
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
